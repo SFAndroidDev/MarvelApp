@@ -12,12 +12,14 @@ import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatIconModule } from '@angular/material/icon';
 import { MatListModule } from '@angular/material/list';
 import { CharacterComponent } from './components/character/character.component';
+import { CharactersComponent } from './components/characters/characters.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
-    CharacterComponent
+    CharacterComponent,
+    CharactersComponent
   ],
   imports: [
     BrowserModule,
