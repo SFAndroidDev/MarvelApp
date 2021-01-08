@@ -17,6 +17,6 @@ export class CharactersApiService {
 
   getAllCharacters(): Observable<any> {
     return this.httpClient.get<any>(this.API_URL)
-      .pipe(map((data: any) => data))
+      .pipe(map((data: any) => data.data.results))
   }
 }
