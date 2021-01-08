@@ -1,1 +1,3 @@
-<p>characters works!</p>
+<p *ngFor="let character of characters | async">
+  {{character | json}}
+</p>
