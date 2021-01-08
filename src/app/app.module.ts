@@ -11,8 +11,8 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatIconModule } from '@angular/material/icon';
 import { MatListModule } from '@angular/material/list';
-import { CharacterComponent } from './components/character/character.component';
 import { CharactersComponent } from './components/characters/characters.component';
+import { CharacterComponent } from './components/characters/character/character.component';
 
 @NgModule({
   declarations: [
