@@ -6,5 +6,8 @@ img.mat-card-image {
 mat-card {
   min-height: 500px;
   max-height: 500px;
- }
+}
 
+mat-mini-fab {
+  align-self: flex-end;
+}

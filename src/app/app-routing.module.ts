@@ -12,7 +12,7 @@ const routes: Routes = [
     path:'characters', component: CharactersComponent
   },
   {
-    path:'superteam', component: SuperteamComponent
+    path:'superteams', component: SuperteamComponent
   }
 ];
 

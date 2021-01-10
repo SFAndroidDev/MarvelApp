@@ -2,9 +2,8 @@
   <div fxLayout="row wrap">
     <div class="character" fxFlex="25" fxFlex.md="33" fxFlex.sm="50" fxFlex.xs="100" fxLayout="column"
       *ngFor="let character of characters | async">
-      <a href="{{character.urls[0].url}}" target="_blank" fxFlex>
-        <app-character [character]="character"></app-character>
-      </a>
+      <app-character [character]="character"></app-character>
+
     </div>
   </div>
 </div>
