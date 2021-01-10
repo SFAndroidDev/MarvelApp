@@ -1,4 +1,10 @@
-img.mat-card-image{
+img.mat-card-image {
   min-height: 350px;
   max-height: 350px;
 }
+
+mat-card {
+  min-height: 500px;
+  max-height: 500px;
+ }
+
