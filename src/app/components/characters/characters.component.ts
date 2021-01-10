@@ -1,5 +1,5 @@
 import { Observable } from 'rxjs';
-import { CharactersApiService } from './../../services/characters-api.service';
+import { CharactersApiService } from './../../services/characters-api/characters-api.service';
 import { Component, OnInit } from '@angular/core';
 
 @Component({

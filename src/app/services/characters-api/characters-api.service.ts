@@ -8,8 +8,10 @@ import { Injectable } from '@angular/core';
 })
 export class CharactersApiService {
 
-  API_KEY = 'a68ea8430bdcbfdb2da5b923f0f21bed';
-  API_URL = `https://gateway.marvel.com:443/v1/public/characters?ts=1&apikey=${this.API_KEY}`;
+  /*API_KEY = 'a68ea8430bdcbfdb2da5b923f0f21bed';
+  API_URL = `https://gateway.marvel.com:443/v1/public/characters?ts=1&apikey=${this.API_KEY}`;*/
+
+  API_URL = `http://localhost:8181/my-api/v1/characters/`;
   constructor(private httpClient: HttpClient) { }
 
   getAllCharacters(): Observable<any> {

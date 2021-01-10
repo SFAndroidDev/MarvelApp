@@ -1,6 +1,6 @@
 import { TestBed } from '@angular/core/testing';
 
-import { CharactersApiService } from './characters-api.service';
+import { CharactersApiService } from './characters-api/characters-api.service';
 
 describe('CharactersApiService', () => {
   let service: CharactersApiService;
@@ -13,4 +13,5 @@ describe('CharactersApiService', () => {
   it('should be created', () => {
     expect(service).toBeTruthy();
   });
+
 });
