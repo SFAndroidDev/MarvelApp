@@ -11,3 +11,6 @@
   top: 0;
   z-index: 1;
 }
+a.routerLinkActive {
+ font-weight: bolder;
+}

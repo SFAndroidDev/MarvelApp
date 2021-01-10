@@ -17,13 +17,15 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatListModule } from '@angular/material/list';
 import { CharactersComponent } from './components/characters/characters.component';
 import { CharacterComponent } from './components/characters/character/character.component';
+import { SuperteamComponent } from './components/superteam/superteam.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     CharacterComponent,
-    CharactersComponent
+    CharactersComponent,
+    SuperteamComponent
   ],
   imports: [
     BrowserModule,
