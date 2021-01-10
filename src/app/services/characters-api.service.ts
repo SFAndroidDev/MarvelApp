@@ -9,7 +9,6 @@ import { Injectable } from '@angular/core';
 export class CharactersApiService {
 
   MY_API_KEY = 'a68ea8430bdcbfdb2da5b923f0f21bed';
-  MY_HASH = 'B4EDDFEFCDDBACCAFA044ED2CCEF48B1';
   API_URL = `https://gateway.marvel.com/v1/public/characters?ts=1&apikey=${this.MY_API_KEY}`;
   constructor(private httpClient: HttpClient) { }
 

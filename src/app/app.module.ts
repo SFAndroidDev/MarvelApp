@@ -1,3 +1,6 @@
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatCardModule } from '@angular/material/card';
+import { FlexLayoutModule } from '@angular/flex-layout';
 import { HttpClientModule } from '@angular/common/http';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
@@ -31,8 +34,11 @@ import { CharacterComponent } from './components/characters/character/character.
     MatButtonModule,
     MatSidenavModule,
     MatIconModule,
+    MatCardModule,
     MatListModule,
-    HttpClientModule
+    MatFormFieldModule,
+    HttpClientModule,
+    FlexLayoutModule
   ],
   providers: [],
   bootstrap: [AppComponent]
