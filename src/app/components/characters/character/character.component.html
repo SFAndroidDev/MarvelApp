@@ -2,7 +2,7 @@
   <img mat-card-image src="{{character.thumbnail.path}}.{{character.thumbnail.extension}}" alt="{{character.name}}">
   <mat-card-title>
     {{character.name}}
-    <button mat-mini-fab color="primary" alt="add to superteam">+</button>
+    <button mat-mini-fab color="primary" (click)="addToSuperteam(character)" alt="Add to superteam" title="Add to superteam">+</button>
   </mat-card-title>
   <mat-card-content>
     {{character.description}}

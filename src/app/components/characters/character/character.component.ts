@@ -1,4 +1,6 @@
+
 import { Component, OnInit, Input } from '@angular/core';
+import { CharactersApiService } from 'src/app/services/characters-api/characters-api.service';
 
 @Component({
   selector: 'app-character',
@@ -7,9 +9,18 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class CharacterComponent implements OnInit {
   @Input() character: any;
-  constructor() { }
+
+  superteam = [];
+
+  constructor(private charactersApiService: CharactersApiService) { }
 
   ngOnInit(): void {
+  }
+  addToSuperteam(hero: any) {
+    console.log(hero);
+    //this.superteam.push(hero);
+    //console.log(this.superteam);
+    this.charactersApiService.addToSuperteam(hero);
   }
 
 }
