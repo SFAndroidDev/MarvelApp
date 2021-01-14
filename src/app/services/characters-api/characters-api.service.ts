@@ -27,4 +27,7 @@ export class CharactersApiService {
     console.log(this.selectedSuperteam);
   }
 
+  getSuperteam(): any[] {
+    return this.selectedSuperteam;
+  }
 }

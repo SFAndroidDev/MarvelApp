@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { CharactersApiService } from 'src/app/services/characters-api/characters-api.service';
 
 @Component({
   selector: 'app-superteam',
@@ -7,9 +8,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SuperteamComponent implements OnInit {
 
-  constructor() { }
+  constructor(private charactersApiService: CharactersApiService) { }
 
   ngOnInit(): void {
+    console.log("here is the superteam component");
+
   }
 
 }
